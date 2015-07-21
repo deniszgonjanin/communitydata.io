@@ -2,6 +2,7 @@
 name = community
 ckan_version = 2.3
 port = 5841
+extra_containers = redis
 
 [deploy]
 target = datacats@command.datacats.com
